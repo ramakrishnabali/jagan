@@ -30,6 +30,8 @@ function KanbanBoard() {
     })
   );
   return (
+    <>
+    <h1 className="w-full items-center">You can drag your taks wherever you want to</h1>
     <div className="m-auto flex min-h-screen w-full overflow-x-auto overflow-y-hidden px-[40px] items-center font-serif">
       <DndContext
         sensors={sensors}
@@ -89,6 +91,7 @@ function KanbanBoard() {
         )}
       </DndContext>
     </div>
+    </>
   );
 
   function createNewColumn() {
