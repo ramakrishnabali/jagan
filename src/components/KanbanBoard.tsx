@@ -31,7 +31,7 @@ function KanbanBoard() {
   );
   return (
     <>
-    <h1 className="w-full text-center text-[35px] text-600 font-serif">You can drag your tasks wherever you want to</h1>
+    <h1 className="w-full text-center text-[35px] text-600 font-serif">You can drag an drop your tasks wherever you want to</h1>
     <div className="m-auto flex min-h-screen w-full overflow-x-auto overflow-y-hidden px-[40px] items-center font-serif">
       <DndContext
         sensors={sensors}
